@@ -1,0 +1,14 @@
+body {
+    min-height: 4096px; /* Taille minimale du corps de la page */
+    position: relative; /* Position relative pour permettre le positionnement absolu du footer */
+  }
+  
+  footer {
+    position: fixed; /* Position fixe pour fixer le footer au bas de la fenêtre */
+    left: 0; /* Positionnement à gauche */
+    bottom: 0; /* Positionnement en bas */
+    width: 100%; /* Largeur de 100% pour occuper toute la largeur de la fenêtre */
+    height: 50px; /* Hauteur du footer */
+    background-color: #ccc; /* Couleur de fond initiale */
+  }
+  

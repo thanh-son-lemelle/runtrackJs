@@ -1,0 +1,13 @@
+/* Style de base de la page */
+#content {
+  margin: 50px;
+  padding: 20px;
+  border: 2px solid #000;
+  background-color: #fff;
+}
+
+/* Style de La Plateforme_ */
+.la-plateforme-style #content {
+  background-color: #005FFF;
+  color: #eeeeee;
+}
