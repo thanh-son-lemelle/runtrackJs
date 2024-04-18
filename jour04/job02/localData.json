@@ -1,0 +1,8 @@
+{
+    "address": "123 Main St",
+    "name": "John Doe",
+    "society": "ABC Company",
+    "city": "New York",
+    "nbr_staff": 10,
+    "creation_date": "2022-01-01"
+}
