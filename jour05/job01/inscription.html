@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inscription</title>
+    <link rel="stylesheet" href="inscription.css">
+    <header>
+        <nav>
+            <a href="#">Inscription</a>
+            <ul class="list">
+                <li><a href="connexion.html">Connexion</a></li>
+                <li><a href="inscription.html">Inscription</a></li>
+            </ul>
+            <button class="search">Search</button>
+            <button class="menu">Menu</button>
+          </nav>
+    </header>
+</head>
+<body>
+    <form id="registerForm">
+        <label for="nom">Nom:</label><br>
+        <input type="text" id="nom" name="nom"><br>
+        <span class="error" id="nomError"></span><br>
+        <label for="prenom">Prénom:</label><br>
+        <input type="text" id="prenom" name="prenom"><br>
+        <span class="error" id="prenomError"></span><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <span class="error" id="emailError"></span><br>
+        <label for="password">Mot de passe:</label><br>
+        <input type="password" id="password" name="password"><br>
+        <span class="error" id="passwordError"></span><br>
+        <label for="confirmPassword">Confirmer mot de passe:</label><br>
+        <input type="password" id="confirmPassword" name="confirmPassword"><br>
+        <span class="error" id="confirmPasswordError"></span><br>
+        <label for="adresse">Adresse:</label><br>
+        <input type="text" id="adresse" name="adresse"><br>
+        <span class="error" id="adresseError"></span><br>
+        <label for="codePostal">Code postal:</label><br>
+        <input type="text" id="codePostal" name="codePostal"><br>
+        <span class="error" id="codePostalError"></span><br>
+        <input type="submit" value="Inscription">
+        <span class="submitionError" id="submitError"></span>
+    </form>
+    <script src="inscription.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+
+<!--? Comment for security purppose-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Connexion</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="connexion.css">
+    <header>
+        <nav>
+            <a href="#">Connexion</a>
+            <ul class="list">
+                <li><a href="connexion.html">Connexion</a></li>
+                <li><a href="inscription.html">Inscription</a></li>
+            </ul>
+            <button class="search">Search</button>
+            <button class="menu">Menu</button>
+          </nav>
+    </header>
+</head>
+<body>
+    <form id="loginForm">
+        <label for="email">Email:</label><br>
+        <!--? Add the type attribute to the email input field -->
+        <!--? Add the required attribute to the email input field -->
+        <input type="email" id="email" name="email" required><br>
+        <span class="error" id="emailError"></span><br>
+        <label for="password">Mot de passe:</label><br>
+        <!--? Add the minlength attribute to the password input field -->
+        <!--? Add the required attribute to the password input field -->
+        <!--? Add the name attribute to the password input field -->
+        <input type="password" id="password" name="password" required minlength="8"><br>
+        <span class="error" id="passwordError"></span><br>
+        <input type="submit" value="Connexion">
+        <span class="submitionError" id="submitError"></span>
+    </form>
+
+    <script src="connexion.js"></script>
+</body>
+</html>
